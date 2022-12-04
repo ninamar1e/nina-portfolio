@@ -1,0 +1,310 @@
+body{
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	background-color: #DFBB9D;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0px;
+}
+/* Niña Marie I. Din */
+
+#welcome {
+	background-image: linear-gradient(75deg, #8C5CF2, #D6D5F2);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0px;
+}
+
+#headerwords {
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size:10vw;
+	text-align: center;
+	text-transform: uppercase; 
+	margin: 0px;
+	color: white;
+	transition-duration: 1s;
+}
+
+#par1{
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size:1.2vw;
+	text-align: center;
+	text-transform: uppercase; 
+	margin: 0px 40px 0px 40px;
+	color: white;
+	transition-duration: 0.4s;
+}
+
+h1 { font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size: 2vw;
+	margin: 1vw 0vw;}
+
+h2 {
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size: 5vw;
+	margin: 0vw 0vw;
+}
+
+h3 {
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size: 3vw;
+	margin: 0vw 0vw;
+}
+
+h4 {
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size: 1.5vw;
+	margin: 0vw;
+}
+
+.par1{
+	font-size:1.3vw;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;}
+
+.text1{
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	font-size: 1.6vw;
+	text-align: justify;
+	margin: 0vw;
+}
+
+.hr1{
+	background-color: #191919;
+	width: 25vw;
+	height: 0.5vw;
+	border: 0vw;
+	margin: 1vw;
+}
+
+
+.button{
+	background-color: #876445;
+	font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+	text-transform: uppercase; 
+	font-size: 1.3vw;
+	color: white;
+	text-align: center;
+	padding: 1vw 2vw;
+	border: 0vw;
+	border-radius: 25vw;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #E9DAC1;
+	color: white;
+	border: 0vw;
+	border-radius: 25vw;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2vw;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #876445;
+
+}
+
+.navbar a {
+	float: left;
+	font-size: 1vw;
+	color: white;
+	text-align: center;
+	padding: 1vw 2vw;
+	text-decoration: none;
+	font-family: century gothic;
+	
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #E9DAC1;
+	color: black;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.profpic{
+	width: 15vw;
+	height: 15vw;
+	border-radius: 10vw;
+}
+
+}
+.desc{
+	overflow: auto;
+	width: 25vw;
+	height: 35vw;
+	margin: 1vw 0vw 2vw 5vw; 
+	float: left;
+}
+
+.btn {
+  background-color: #E9DAC1;
+  border: 0vw;
+  border-radius: 15vw;
+  color: white;
+  padding: 1vw 2vw;
+  cursor: pointer;
+  font-size: 1.5vw;
+}
+
+.btn:hover {
+  background-color: #E9DAC1;
+}
+
+.projimg1{
+	width: 25vw;
+}
+
+.projimg2{
+	height: 25vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.imgfrt{
+	width: 20vw;
+	transition-duration: 0.5s;
+}
+
+.imgfrt:hover{
+	width: 30vw;
+	transition-duration: 0.5s;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 2vw;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.polaroid {
+  width: 20vw;
+  box-shadow: 0 1vw 1vw 0 rgba(0, 0, 0, 0.2), 0 1vw 1vw 0 rgba(0, 0, 0, 0.19);
+  font-size: 1.3vw;
+  text-align: center;
+  padding-bottom: 2vw;
+}
+
+.eduleft{
+	padding: 2vw 10vw 1vw 52vw;
+	font-family: century gothic;
+	font-size: 1vw;
+	margin: 0vw;
+}
+
+.eduright{
+	padding: 2vw 52vw 1vw 10vw;
+	text-align: right;
+	font-family: century gothic;
+	font-size: 1vw;
+	margin: 0vw;
+}
+
+input[type=text], select, textarea {
+	font-size: 1.3vw;
+	width: 100%;
+	padding: 1vw;
+	border: 0.2vw solid #ccc;
+	border-radius: 0.5vw;
+	resize: vertical;
+}
+
+label {
+	font-size: 1.3vw;
+	padding: 1vw 1vw 1vw 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #E9DAC1;
+	color: black;
+	padding: 1.5vw 2vw;
+	border: none;
+	border-radius: 25vw;
+	cursor: pointer;
+	float: right;
+}
+
+input[type=submit]:hover {
+	background-color: #E9DAC1;
+}
+
+.container {
+	border-radius: 1vw;
+	padding: 2vw;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 1vw;
+}
+
+.col-25 {
+	float: right;
+	width: 25%;
+	margin-top: 1vw;
+}
+
+.col-25 {
+	float: center;
+	width: 25%;
+	margin-top: 1vw;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 85px;
+  height: 375px; 
+  }
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
